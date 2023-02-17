@@ -1,0 +1,43 @@
+# fonte compilada #
+###################
+*.com
+* .class
+* .dll
+* .exe
+*.o
+* .so
+
+# Pacotes #
+############
+# é melhor descompactar esses arquivos e confirmar o código-fonte bruto
+# git tem seus próprios métodos de compressão embutidos
+* .7z
+* .dmg
+* .gz
+* .iso
+* .jar
+* .rar
+* .tar
+* .zip
+
+# Logs e bancos de dados #
+######################
+* .log
+* .sql
+* .sqlite
+
+# Arquivos gerados pelo sistema operacional #
+######################
+.DS_Store
+.DS_Store ?
+._*
+.Spotlight-V100
+.Lixos
+ehthumbs.db
+Thumbs.db
+
+# ignora quaisquer diretórios chamados "node_modules"
+#node_modules/
+
+#arquivos de senha 
+.env
